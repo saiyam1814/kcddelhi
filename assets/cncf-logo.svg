@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50">
+  <text x="10" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">
+    CNCF
+  </text>
+  <text x="10" y="45" font-family="Arial, sans-serif" font-size="8" fill="#666">
+    Cloud Native Computing Foundation
+  </text>
+</svg>
