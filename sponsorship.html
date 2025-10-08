@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sponsorship - KCD New Delhi 2026</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .sponsorship-header {
+            text-align: center;
+            padding: 120px 20px 40px;
+            background: linear-gradient(135deg, #326ce5 0%, #1a73e8 100%);
+            color: white;
+        }
+        
+        .sponsorship-logo {
+            height: 80px;
+            width: auto;
+            margin-bottom: 20px;
+            filter: brightness(0) invert(1);
+        }
+        
+        .sponsorship-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .sponsorship-header p {
+            font-size: 1.25rem;
+            max-width: 800px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+        
+        .pdf-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        .pdf-viewer {
+            width: 100%;
+            height: 800px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .pdf-fallback {
+            text-align: center;
+            padding: 40px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        .pdf-fallback a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: #326ce5;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+        
+        .pdf-fallback a:hover {
+            background: #1a73e8;
+        }
+        
+        .contact-section {
+            max-width: 800px;
+            margin: 60px auto 40px;
+            padding: 0 20px;
+            text-align: center;
+        }
+        
+        .contact-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #326ce5;
+        }
+        
+        .contact-section p {
+            font-size: 1.125rem;
+            margin-bottom: 2rem;
+            color: #666;
+        }
+        
+        .contact-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .contact-btn {
+            padding: 12px 32px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-btn-primary {
+            background: #326ce5;
+            color: white;
+        }
+        
+        .contact-btn-primary:hover {
+            background: #1a73e8;
+            transform: translateY(-2px);
+        }
+        
+        .contact-btn-secondary {
+            background: white;
+            color: #326ce5;
+            border: 2px solid #326ce5;
+        }
+        
+        .contact-btn-secondary:hover {
+            background: #f0f7ff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="assets/kcd-delhi-logo.svg" alt="KCD Delhi 2026" class="k8s-logo">
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#sponsors">Sponsors</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="sponsorship-header">
+        <img src="assets/kcd-delhi-logo.svg" alt="KCD Delhi 2026" class="sponsorship-logo">
+        <h1>Sponsorship Opportunities</h1>
+        <p>Join us in supporting the Kubernetes community and connect with hundreds of cloud native enthusiasts, developers, and industry leaders at KCD New Delhi 2026.</p>
+    </div>
+
+    <div class="pdf-container">
+        <object 
+            data="KCD NEW Delhi 2025 SPONSORSHIP - Google Slides.pdf" 
+            type="application/pdf" 
+            class="pdf-viewer">
+            <div class="pdf-fallback">
+                <h2>Sponsorship Package Details</h2>
+                <p>Your browser doesn't support embedded PDF viewing.</p>
+                <a href="KCD NEW Delhi 2025 SPONSORSHIP - Google Slides.pdf" download>Download Sponsorship Package (PDF)</a>
+            </div>
+        </object>
+    </div>
+
+    <div class="contact-section">
+        <h2>Interested in Sponsoring?</h2>
+        <p>We'd love to discuss how your organization can be part of KCD New Delhi 2026. Contact our sponsorship team to learn more about available packages and benefits.</p>
+        <div class="contact-buttons">
+            <a href="mailto:sponsors@kcddelhi.com" class="contact-btn contact-btn-primary">Contact Sponsorship Team</a>
+            <a href="KCD NEW Delhi 2025 SPONSORSHIP - Google Slides.pdf" download class="contact-btn contact-btn-secondary">Download Package Info</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="assets/cncf-logo.svg" alt="CNCF" class="footer-logo">
+                    <p>KCD New Delhi is an official Cloud Native Computing Foundation event.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <a href="https://x.com/kcddelhi" target="_blank" class="footer-link">Twitter</a>
+                    <a href="mailto:info@kcddelhi.com" class="footer-link">Email</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Info</h4>
+                    <a href="index.html#about" class="footer-link">About</a>
+                    <a href="index.html#cfp" class="footer-link">Call for Papers</a>
+                    <a href="code-of-conduct.html" class="footer-link">Code of Conduct</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 KCD New Delhi. Licensed under MIT License.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
